@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+
+html {
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+  font-family: Inter;
+  font-size: 16px;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

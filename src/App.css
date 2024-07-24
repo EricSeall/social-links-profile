@@ -1,0 +1,76 @@
+.card {
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  width: 320px;
+}
+
+.profile-link {
+  display: block;
+  width: 80%;
+  background-color: hsl(0, 0%, 20%);
+  margin: 0 auto;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 10px;
+  margin-bottom: 15px;
+  color: white;
+  font-weight: 700;
+  transition-duration: .1s;
+}
+
+.profile-link:hover{
+  scale: 1.05;
+  box-shadow: rgba(173, 216, 230, 0.406)  0px 0px 10px 5px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 200px;
+  clip-path: circle(50px at 50% 45%);
+  margin-top: 10px;
+}
+
+.profile-name {
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.location {
+  text-align: center;
+  color: hsl(188, 68%, 60%);
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 25px;
+  font-size: 1rem;
+}
+
+.description {
+  text-align: center;
+  font-weight: 400;
+  font-size: .75rem;
+}
+
+.links {
+  margin: 25px 0px;
+}
+
+a:link { 
+  text-decoration: none; 
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+} 
+a:active { 
+  text-decoration: none; 
+}
